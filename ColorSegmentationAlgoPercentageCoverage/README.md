@@ -33,8 +33,11 @@ An example analysis includes reading an image, resizing it, applying Gaussian fi
 
 ### Challenges and Solutions
 **Challenge:** Handling noise and inconsistencies in images due to the petri dish and other factors.
+
 **Solution:** Implementing Gaussian filtering to create a consistent preprocessing methodology.
+
 **Challenge:** Not familiar with data analytics tools
+
 **Solution:** Use AI to draft code and look at documentation for appropriate libraries.
 
 ### Applications

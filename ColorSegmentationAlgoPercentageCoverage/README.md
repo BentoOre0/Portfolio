@@ -1,4 +1,4 @@
-## Percentage Coverage Analysis Project
+## Percentage Coverage Analysis Project 🍌⚗️
 
 ### Overview
 The **Percentage Coverage Analysis** project aims to determine the percentage coverage of the "brown layer" on bananas over time and see how this is affected by different preservatives. This was created as part of a wider science project related to chemistry.
@@ -10,7 +10,7 @@ The **Percentage Coverage Analysis** project aims to determine the percentage co
 Our analysis employs several methodologies:
 1. **Image Processing:** Using OpenCV for image reading and resizing.
 2. **Gaussian Filtering:** To remove noise caused by the petri dish and other packs, ensuring consistent methodology without manual photo editing.
-3. **K-Means Clustering:** An AI algorithm to identify and segment the key colors in the images. (3 clusters since only 3 major clusters background, yellow and brown).
+3. **K-Means Clustering:** An AI algorithm to identify and segment the key colors in the images. (3 clusters since only 3 major clusters background, yellow, and brown).
 4. **Color Distance Calculation:** To classify and filter out the background and target the relevant brown and yellow layers.
 
 ### Key Metrics
@@ -32,11 +32,11 @@ We utilize a range of tools and technologies, including:
 An example analysis includes reading an image, resizing it, applying Gaussian filtering, performing K-Means clustering, and calculating the percentage of the brown layer.
 
 ### Challenges and Solutions
-**Challenge:** Handling noise and inconsistencies in images due to the petri dish and other factors.
+**Challenge:** Handling noise and inconsistencies in images due to the petri dish and other factors. 📷
 
 **Solution:** Implementing Gaussian filtering to create a consistent preprocessing methodology.
 
-**Challenge:** Not familiar with data analytics tools
+**Challenge:** Not familiar with data analytics tools 🤔
 
 **Solution:** Use AI to draft code and look at documentation for appropriate libraries.
 
@@ -47,6 +47,5 @@ The findings from our analysis can be applied in:
 
 ### Future Improvements
 Next steps include:
-- **Using Neural Networks:** To potentially enhance accuracy and consistency compared to clustering algorithms and blurs.
-
+- **Using Neural Networks:** To potentially enhance accuracy and consistency compared to clustering algorithms and blurs. 🧠
 

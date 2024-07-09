@@ -35,6 +35,6 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 ## 🎯 Goals
 - Continue to excel in competitive programming and algorithm development.
 - Explore more advanced topics in AI and machine learning.
-- Learn more about the industry.
+- Learn more about the industry software development.
 
 ---

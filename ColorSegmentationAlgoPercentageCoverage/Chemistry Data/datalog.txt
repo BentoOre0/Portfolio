@@ -1,0 +1,123 @@
+C:\Users\jerem\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\jerem\PycharmProjects\pythonProject\coldecimgtopercent.py
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\AceticAcid\Acetic1_modded.jpg
+130724 22479
+Percentage Brown 14.67%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\AceticAcid\Acetic2_modded.jpg
+215426 5373
+Percentage Brown 2.43%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\CitricAcid\CitricAcid1_modded.jpg
+171451 25981
+Percentage Brown 13.16%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\CitricAcid\CitricAcid2_modded.jpg
+149750 22122
+Percentage Brown 12.87%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\NaOH\NaOH1_modded.jpg
+167958 22120
+Percentage Brown 11.64%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\NaOH\NaOH2_modded.jpg
+154990 35447
+Percentage Brown 18.61%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\Nothing\Nothing_modded.png
+11936 1197
+Percentage Brown 9.11%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\Nothing\Nothing2_modded.jpg
+190503 49620
+Percentage Brown 20.66%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\VegOil\VegOil1_modded.jpg
+161133 12487
+Percentage Brown 7.19%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 0\VegOil\Vegoil2_modded.jpg
+110331 14296
+Percentage Brown 11.47%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\AceticAcid\Acetic1_modded.jpg
+202708 99623
+Percentage Brown 32.95%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\AceticAcid\Acetic2_modded.jpg
+102550 146788
+Percentage Brown 58.87%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\CitricAcid\CitricAcid1_modded.jpg
+223393 46472
+Percentage Brown 17.22%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\CitricAcid\CitricAcid2_modded.jpg
+183481 32804
+Percentage Brown 15.17%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\NaOH\NaOH1_modded.png
+8054 7462
+Percentage Brown 48.09%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\NaOH\NaOH2_modded.jpg
+196688 99039
+Percentage Brown 33.49%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\Nothing\Nothing1_modded.jpg
+207429 31613
+Percentage Brown 13.22%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\Nothing\Nothing2_modded.jpg
+206110 35567
+Percentage Brown 14.72%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\VegOil\VegOil1_modded.jpg
+133922 63552
+Percentage Brown 32.18%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 1\VegOil\VegOil2_modded.jpg
+176693 95748
+Percentage Brown 35.14%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\AceticAcid\Acetic1_modded.jpg
+114453 127172
+Percentage Brown 52.63%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\AceticAcid\Acetic2_modded.jpg
+70644 175803
+Percentage Brown 71.34%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\CitricAcid\Citric1_modded.jpg
+168382 37004
+Percentage Brown 18.02%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\CitricAcid\Citric2_modded.jpg
+128808 39017
+Percentage Brown 23.25%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\NaOH\NaOH1_modded.jpg
+106786 127849
+Percentage Brown 54.49%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\NaOH\NaOH2_modded.jpg
+172655 91627
+Percentage Brown 34.67%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\Nothing\Nothing1_modded.jpg
+101793 17402
+Percentage Brown 14.60%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\Nothing\Nothing2_modded.jpg
+144570 35283
+Percentage Brown 19.62%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\VegOil\Veg1_modded.jpg
+148347 87492
+Percentage Brown 37.10%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 2\VegOil\Veg2_modded.jpg
+114788 67656
+Percentage Brown 37.08%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\AceticAcid\Acetic1_modded.jpg
+65618 185640
+Percentage Brown 73.88%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\AceticAcid\Acetic2_modded.jpg
+46167 193498
+Percentage Brown 80.74%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\CitricAcid\Citric1_modded.jpg
+212013 67421
+Percentage Brown 24.13%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\CitricAcid\Citric2_modded.jpg
+180255 89934
+Percentage Brown 33.29%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\NaOH\NaOH1_modded.jpg
+264068 190562
+Percentage Brown 41.92%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\NaOH\NaOH2_modded.jpg
+217291 115820
+Percentage Brown 34.77%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\Nothing\Nothing1_modded.jpg
+124765 49397
+Percentage Brown 28.36%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\Nothing\Nothing2_modded.jpg
+111347 79913
+Percentage Brown 41.78%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\VegOil\Veg1_modded.jpg
+88833 112201
+Percentage Brown 55.81%
+C:\Users\jerem\Desktop\BANANA PHOTOS\Day 3\VegOil\Veg2_modded.jpg
+58607 111129
+Percentage Brown 65.47%
+
+Process finished with exit code 0

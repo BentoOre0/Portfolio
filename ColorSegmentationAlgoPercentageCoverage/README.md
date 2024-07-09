@@ -5,6 +5,7 @@ The **Percentage Coverage Analysis** project aims to determine the percentage co
 
 ### Data Sources
 - **Photos:** Taken personally to document the changes in the banana's brown layer over time.
+- **Processed Data:** Output of the algorithm. This is seen in the folder in the project.
 
 ### Methodologies
 Our analysis employs several methodologies:

@@ -12,7 +12,7 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 
 ## 🌐 Competitive Programming
 - Regular participant in Informatics Olympiads.
-- Top 20+ placer in the Philippine National Olympiad in Informatics (NOI.ph), best position: 4th place in an elimination round.
+- Top 20+ placer in the Philippine National Olympiad in Informatics ([NOI.ph](https://noi.ph)), best position: 4th place in an elimination round.
 - Invited to the Asia Pacific International Olympiad for two consecutive years.
 - One rank off from the IOI team in 2024.
 - Founded a Competitive Programmin Club in School 20+ members. Host in house contests every 2 weeks for snacks!

@@ -27,7 +27,7 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 - Self-taught developer: Comfortable with python, some experience with Java, C++ for competitve programming
 
 ## 🔗 Links
-- [Research Paper: Still in Progress this summer](#)
+- Research Paper: Still in Progress this summer
 
 ## 📈 Recent Developments
 - Leveraging recent AI advancements to enhance my development process.

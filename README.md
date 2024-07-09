@@ -28,8 +28,8 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 - **Codeforces**: [Profile Link](https://codeforces.com/profile/BentoOreo)
 
 ## 📚 Education
-- IB student with an extended essay on Neural Networks.
-- Self-taught developer: Comfortable with python, some experience with Java, C++ for competitve programming
+- IB student making an extended essay on Neural Networks.
+- Self-taught developer: Most comfortable with python for development, some experience with Java, C++ for competitve programming
 
 ## 📈 Recent Developments
 - Leveraging recent AI advancements to enhance my development process.

@@ -18,7 +18,7 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
 
 1. **Mouse Controls:**
    - **Left Click (MOUSEBUTTONDOWN, button 1):**
-     - Create a new planet at the mouse position.
+     - Create a new planet at the mouse position, enters creation mode.
    - **Right Click (MOUSEBUTTONDOWN, button 3):**
      - Create a new planet at the mouse position with random orbital velocity around an existing planet.
    - **Mouse Wheel Scroll (MOUSEBUTTONDOWN, button 4 or 5):**
@@ -26,17 +26,17 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
 
 2. **Keyboard Controls:**
    - **`r`:** 
-     - Toggle resizing mode for the new planet.
+     - Toggle resizing mode for the new planet in creation mode.
    - **`g`:**
      - Generate a specified number of random planets.
    - **`e`:**
-     - Clear all planets from the simulation.
+     - Erase all planets from the simulation.
    - **`f`:**
      - Change the maximum size of randomly generated planets.
    - **`d`:**
      - Toggle the drawing mode for quadtree bounds.
    - **`t`:**
-     - Change the Barnes-Hut coefficient θ (affects simulation accuracy and speed).
+     - Change the Barnes-Hut coefficient θ (affects simulation accuracy and speed). This determines whether something is "far enough".
    - **`s`:**
      - Spin a specified number of bodies in a galaxy around the mouse position.
    - **`x`:**
@@ -53,7 +53,3 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
      - Prompted by pressing `x`.
    - **Number of Bodies in the Galaxy:**
      - Prompted by pressing `x`.
-
-### Explanation
-
-This program is a gravitational simulation where users can create and manage celestial bodies. Users can interact with the simulation using mouse clicks and keyboard shortcuts to create planets, set their trajectories, resize them, generate random planets, and manage the simulation's parameters for better control over the behavior and performance of the simulation. The Barnes-Hut algorithm is used to optimize gravitational calculations, and users can visualize the quadtree structure by toggling the drawing mode.

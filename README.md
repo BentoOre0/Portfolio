@@ -4,10 +4,14 @@
 Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I have a diverse background in data analysis, algorithm optimization, and competitive programming.
 
 ## 🏆 Achievements
-- **Project 1: Automated Color Analysis** 
+- **Project 1: Timed Sorts**
+  - A python library which allows you to see the impacts of complexity and memory of different sorting algorithms.
+- **Project 2: Fobisia Codify Draft**
+  - A draft submission for the first hackathon i joined. Final copy has been lost :( with my team.
+- **Project 3: Automated Color Analysis** 
   - Developed a data analysis tool using clustering algorithms to measure the oxidization level of bananas.
   - This project was featured in a research paper and won a in school competition.
-- **Project 2: 2D Gravity Simulation for PyCharm**
+- **Project 4: 2D Gravity Simulation for PyCharm**
   - Optimized the algorithm from O(n^2) to O(n log n) using the Barnes Hut approximation.
 
 ## 🌐 Competitive Programming

@@ -19,8 +19,7 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 ## 💻 Coding Platforms
 - **Codeforces**: [Profile Link]
 - **Kattis**: [Profile Link]
-- **UVa Online Judge**: [Profile Link]
-- **USACO**: [Profile Link]
+- **UVa Online Judge**: [Profile Link](https://uhunt.onlinejudge.org/id/1603931)
 
 ## 📚 Education
 - IB student with an extended essay on Neural Networks.

@@ -1,7 +1,7 @@
-# 🌟 [Your Name] - GitHub Portfolio
+# 🌟 [Jeremy Aidan Hernandez Yu] - GitHub Portfolio
 
 ## 👋 Introduction
-Hi! I'm [Your Name], a passionate coder and problem solver. I have a diverse background in data analysis, algorithm optimization, and competitive programming.
+Hi! I'm [Jeremy Aidan Hernandez Yu], a passionate coder and problem solver. I have a diverse background in data analysis, algorithm optimization, and competitive programming.
 
 ## 🏆 Achievements
 - **Project 1: Automated Color Analysis** 
@@ -35,5 +35,6 @@ Hi! I'm [Your Name], a passionate coder and problem solver. I have a diverse bac
 ## 🎯 Goals
 - Continue to excel in competitive programming and algorithm development.
 - Explore more advanced topics in AI and machine learning.
+- Learn more about the industry.
 
 ---

@@ -15,11 +15,13 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 - Top 20+ placer in the Philippine National Olympiad in Informatics (NOI.ph), best position: 4th place in an elimination round.
 - Invited to the Asia Pacific International Olympiad for two consecutive years.
 - One rank off from the IOI team in 2024.
+- Founded a Competitive Programmin Club in School 20+ members. Host in house contests every 2 weeks for snacks!
 
 ## 💻 Coding Platforms
-- **Codeforces**: [Profile Link]
-- **Kattis**: [Profile Link]
+- **Kattis**: [Profile Link](https://open.kattis.com/users/bento-box#)
 - **UVa Online Judge**: [Profile Link](https://uhunt.onlinejudge.org/id/1603931)
+- **HackerRank:** [Profile Link](https://www.hackerrank.com/profile/jeremy_yu1)
+- **Codeforces**: [Profile Link](https://codeforces.com/profile/BentoOreo)
 
 ## 📚 Education
 - IB student with an extended essay on Neural Networks.

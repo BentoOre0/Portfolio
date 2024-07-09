@@ -13,3 +13,47 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
 - **Quadtree Structure**: Instead of checking each planet against all others, the space is divided into four quadrants recursively. This quadtree structure helps in grouping distant bodies and approximating them as a single point mass.
 - **Force Calculation**: For each particle, forces from nearby particles are calculated directly, while distant particles are approximated.
 - **UI**: This done using tkinter and pygames directly.
+
+### User Controls for `main.py`
+
+1. **Mouse Controls:**
+   - **Left Click (MOUSEBUTTONDOWN, button 1):**
+     - Create a new planet at the mouse position.
+   - **Right Click (MOUSEBUTTONDOWN, button 3):**
+     - Create a new planet at the mouse position with random orbital velocity around an existing planet.
+   - **Mouse Wheel Scroll (MOUSEBUTTONDOWN, button 4 or 5):**
+     - Increase (button 4) or decrease (button 5) the radius of the new planet during creation mode.
+
+2. **Keyboard Controls:**
+   - **`r`:** 
+     - Toggle resizing mode for the new planet.
+   - **`g`:**
+     - Generate a specified number of random planets.
+   - **`e`:**
+     - Clear all planets from the simulation.
+   - **`f`:**
+     - Change the maximum size of randomly generated planets.
+   - **`d`:**
+     - Toggle the drawing mode for quadtree bounds.
+   - **`t`:**
+     - Change the Barnes-Hut coefficient θ (affects simulation accuracy and speed).
+   - **`s`:**
+     - Spin a specified number of bodies in a galaxy around the mouse position.
+   - **`x`:**
+     - Change the galaxy's radius and the number of bodies in the galaxy.
+
+3. **Dialog Prompts:**
+   - **Max Size of Random Planets:**
+     - Prompted by pressing `f`.
+   - **Number of Planets to Generate:**
+     - Prompted by pressing `g`.
+   - **Barnes-Hut Coefficient θ:**
+     - Prompted by pressing `t`.
+   - **Galaxy's Radius:**
+     - Prompted by pressing `x`.
+   - **Number of Bodies in the Galaxy:**
+     - Prompted by pressing `x`.
+
+### Explanation
+
+This program is a gravitational simulation where users can create and manage celestial bodies. Users can interact with the simulation using mouse clicks and keyboard shortcuts to create planets, set their trajectories, resize them, generate random planets, and manage the simulation's parameters for better control over the behavior and performance of the simulation. The Barnes-Hut algorithm is used to optimize gravitational calculations, and users can visualize the quadtree structure by toggling the drawing mode.

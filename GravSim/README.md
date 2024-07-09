@@ -14,6 +14,12 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
 - **Force Calculation**: For each particle, forces from nearby particles are calculated directly, while distant particles are approximated.
 - **UI**: This done using tkinter and pygames directly.
 
+### Challenges encountered during development
+**Challenge:** Familiarity with pygames and tkinter or compression algorithms.
+
+**Solution:** Use AI to draft code and look at documentation for appropriate libraries. Also used it to research the Barnes-Hut Algorithm.
+
+
 ### User Controls for `main.py`
 
 1. **Mouse Controls:**

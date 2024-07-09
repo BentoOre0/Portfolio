@@ -1,22 +1,19 @@
 ## Fobisia Codify Hackathon Project: Second-Hand Uniform Organizing System 🎓👕
 
 ### Overview
-Our team participated in the Fobisia Codify Hackathon with the aim of developing an innovative solution for organizing second-hand uniforms within our school's uniform shop. Despite being disqualified due to a late submission, the project showcased our skills in Java application development and database management.
+Our team aimed to develop a Java Swing application for organizing second-hand uniforms in our school shop at the Fobisia Codify Hackathon. Despite being disqualified for a late submission, the project highlighted our skills in Java application development and database management.
 
 ### Project Details
-- **Idea:** To create an efficient organizing system using Java Swing for the user interface.
-- **Contributions:** I primarily developed the backend functionalities including `Home.java` and `Orders.java`.
-- **Technology Stack:** Utilized Java Swing for the frontend and incorporated local database storage with SQL interactions for data management.
+- **Idea:** Created an efficient system using Java Swing for the UI.
+- **Contributions:** Developed backend functionalities including `Home.java` and `Orders.java`.
+- **Technology Stack:** Utilized Java Swing for frontend and integrated local SQL database for data management.
 
 ### Key Features
-1. **User Interface (UI) Development:** Designed and implemented UI components using Java Swing to ensure a user-friendly experience.
-2. **Backend Logic:** Implemented crucial backend functionalities such as managing orders and maintaining inventory records.
-3. **Database Integration:** Used SQL to interact with a local database, enabling efficient data storage and retrieval for uniform records.
+1. **UI Development:** Designed user-friendly interfaces with Java Swing.
+2. **Backend Logic:** Implemented order management and inventory tracking functionalities.
+3. **Database Integration:** Utilized SQL for efficient data storage and retrieval.
 
-### Achievements and Learnings
-- **Technical Skills:** Strengthened proficiency in Java programming, particularly in GUI development with Java Swing.
-- **Database Management:** Gained practical experience in integrating SQL databases within Java applications.
-- **Collaboration:** Worked effectively within a team environment, contributing to the project's backend development and problem-solving.
-
-
-The original files can't be accessed. I only have my contributions we were quite unorganised.
+### Lessons learned
+- Strengthened Java programming skills.
+- Gained experience in SQL database integration.
+- Contributed effectively to backend development in a team environment.

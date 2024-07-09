@@ -12,3 +12,4 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
 ### How It Works
 - **Quadtree Structure**: Instead of checking each planet against all others, the space is divided into four quadrants recursively. This quadtree structure helps in grouping distant bodies and approximating them as a single point mass.
 - **Force Calculation**: For each particle, forces from nearby particles are calculated directly, while distant particles are approximated.
+- **UI**: This done using tkinter and pygames directly.

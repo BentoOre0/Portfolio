@@ -13,6 +13,8 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - This project was featured in a research paper and won a in school competition.
 - **Project 4: 2D Gravity Simulation for PyCharm**
   - Optimized the algorithm from O(n^2) to O(n log n) using the Barnes Hut approximation.
+- **Project 5: API protocols with Type Script**
+  - This is what I did with my days shadowing with Price Locq. I will update this in the future with bigger projects.
 
 ## 🌐 Competitive Programming
 - Regular participant in Informatics Olympiads.

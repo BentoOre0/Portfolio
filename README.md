@@ -10,7 +10,7 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - A draft submission for the first hackathon i joined. Final copy has been lost :( with my team.
 - **Project 3: Automated Color Analysis** 
   - Developed a data analysis tool using clustering algorithms to measure the oxidization level of bananas.
-  - This project won a in school competition.
+  - This project won a school competition.
 - **Project 4: 2D Gravity Simulation for PyCharm**
   - Optimized the algorithm from O(n^2) to O(n log n) using the Barnes Hut approximation.
 - **Project 5: Computer Science Extended Essay Research Project (imageplayground)**:

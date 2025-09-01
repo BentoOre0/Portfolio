@@ -44,10 +44,11 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 
 ## 📈 Recent Developments
 - Leveraging recent AI advancements to enhance my development process.
+- Bought a Raspberry Pi and began tinkering after IB exams
 
 ## 🎯 Goals
+- Learn hardware and electronics! (Most excited for someting new!)
 - Continue to excel in competitive programming and algorithm development.
-- Explore more advanced topics in AI and machine learning.
-- Learn more about the industry software development.
+- Explore more advanced topics in AI and machine learning, espescially with logistics optimisation
 
 ---

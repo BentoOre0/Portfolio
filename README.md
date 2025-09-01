@@ -13,8 +13,16 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - This project was featured in a research paper and won a in school competition.
 - **Project 4: 2D Gravity Simulation for PyCharm**
   - Optimized the algorithm from O(n^2) to O(n log n) using the Barnes Hut approximation.
-- **Project 5: API protocols with Type Script**
-  - This is what I did with my days shadowing with Price Locq. I will update this in the future with bigger projects.
+- **Project 5: Current work with LOCQ/SEAGAS Development team**
+  - Developed a dispatching and fulfillment control system for delivery operations.
+  - Integrated the Viber API for automated rider messaging and order confirmations.
+  - Built a minimum viable product (MVP) using Google Apps Script + Google Sheets (no external DB yet).
+  - Deployed components to AWS serverless infrastructure for scalability.
+  - Gained hands-on experience with version control workflows and collaborative deployment.
+  - Currently planning to use graph algorithms for optimal rider assignment for a phase 2
+- **Project 6: Computer Science Extended Essay Research Project (imageplayground)**:
+  - Investigated "How do Convolutional Neural Networks (CNN) compare against Support Vector Classifiers (SVC) in recognising the Baybayin script under varying degrees of rotation, noise intensities and no added distortions?"
+  - See paper on google drive [here](https://drive.google.com/file/d/1Tz5_n4KKLvXJk2pD9c-VNwKGnvGy7cFN/view?usp=sharing)
 
 ## 🌐 Competitive Programming
 - Regular participant in Informatics Olympiads.

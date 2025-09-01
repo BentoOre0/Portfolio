@@ -5,7 +5,7 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 
 ## 🏆 Achievements in order of completion
 - **Project 1: Timed Sorts**
-  - A python library which allows you to see the impacts of complexity and memory of different sorting algorithms.
+  - A python library which allows you to see the impacts of complexity and memory of different sorting algorithms. Literally times sorts
 - **Project 2: Fobisia Codify Draft**
   - A draft submission for the first hackathon i joined. Final copy has been lost :( with my team.
 - **Project 3: Automated Color Analysis** 
@@ -17,9 +17,9 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - Investigated "How do Convolutional Neural Networks (CNN) compare against Support Vector Classifiers (SVC) in recognising the Baybayin script under varying degrees of rotation, noise intensities and no added distortions?"
   - See paper on google drive [here](https://drive.google.com/file/d/1Tz5_n4KKLvXJk2pD9c-VNwKGnvGy7cFN/view?usp=sharing)
 - **Project 6: Part time work with [LOCQ/SEAGAS](https://new.pricelocq.com/) Development Team**
-  - Developed a dispatching and fulfillment control system for delivery operations.
+  - Developed a dispatching and fulfillment control system for delivery operations using Node and Nest Js
   - Integrated the Viber API for automated rider messaging and order confirmations.
-  - Built a minimum viable product (MVP) using Google Apps Script + Google Sheets (no external DB yet).
+  - Built a minimum viable product (MVP) using Google Apps Script + Google Sheets (no external DB yet) and easier to use for ground staff for now 
   - Deployed components to AWS serverless infrastructure for scalability.
   - Gained hands-on experience with version control workflows and collaborative deployment.
   - Currently planning to use graph algorithms for optimal rider assignment for a phase 2
@@ -38,8 +38,9 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 - **Codeforces**: [Profile Link](https://codeforces.com/profile/BentoOreo)
 
 ## 📚 Education
-- IB student making an extended essay on Neural Networks.
-- Self-taught developer: Most comfortable with python for development, some experience with Java, C++ for competitve programming
+- IB student who took physics, chem and math HL
+- Studying Applied Sciences @ UBC
+- Completely self-taught developer: Most comfortable with python/JS for development, out of practice with Java, C++ for competitve programming
 
 ## 📈 Recent Developments
 - Leveraging recent AI advancements to enhance my development process.

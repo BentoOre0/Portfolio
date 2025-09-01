@@ -3,7 +3,7 @@
 ## 👋 Introduction
 Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I have a diverse background in data analysis, algorithm optimization, and competitive programming.
 
-## 🏆 Achievements
+## 🏆 Achievements in order of completion
 - **Project 1: Timed Sorts**
   - A python library which allows you to see the impacts of complexity and memory of different sorting algorithms.
 - **Project 2: Fobisia Codify Draft**
@@ -13,17 +13,16 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - This project was featured in a research paper and won a in school competition.
 - **Project 4: 2D Gravity Simulation for PyCharm**
   - Optimized the algorithm from O(n^2) to O(n log n) using the Barnes Hut approximation.
-- **Project 5: Current work with LOCQ/SEAGAS Development team**
+- **Project 5: Computer Science Extended Essay Research Project (imageplayground)**:
+  - Investigated "How do Convolutional Neural Networks (CNN) compare against Support Vector Classifiers (SVC) in recognising the Baybayin script under varying degrees of rotation, noise intensities and no added distortions?"
+  - See paper on google drive [here](https://drive.google.com/file/d/1Tz5_n4KKLvXJk2pD9c-VNwKGnvGy7cFN/view?usp=sharing)
+- **Project 6: Part time work with [LOCQ/SEAGAS](https://new.pricelocq.com/) Development Team**
   - Developed a dispatching and fulfillment control system for delivery operations.
   - Integrated the Viber API for automated rider messaging and order confirmations.
   - Built a minimum viable product (MVP) using Google Apps Script + Google Sheets (no external DB yet).
   - Deployed components to AWS serverless infrastructure for scalability.
   - Gained hands-on experience with version control workflows and collaborative deployment.
   - Currently planning to use graph algorithms for optimal rider assignment for a phase 2
-- **Project 6: Computer Science Extended Essay Research Project (imageplayground)**:
-  - Investigated "How do Convolutional Neural Networks (CNN) compare against Support Vector Classifiers (SVC) in recognising the Baybayin script under varying degrees of rotation, noise intensities and no added distortions?"
-  - See paper on google drive [here](https://drive.google.com/file/d/1Tz5_n4KKLvXJk2pD9c-VNwKGnvGy7cFN/view?usp=sharing)
-
 ## 🌐 Competitive Programming
 - Regular participant in Informatics Olympiads.
 - Top 20+ placer in the Philippine National Olympiad in Informatics ([NOI.ph](https://noi.ph)), best position: 4th place.

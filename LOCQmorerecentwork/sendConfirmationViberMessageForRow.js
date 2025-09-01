@@ -9,9 +9,6 @@ function sendConfirmationViberMessageForRow(rowNumber) {
     - col G to the current time
   
   */
-  // var viberApiUser = "admin";
-  // var viberApiPass = "secret";
-  // var authString = Utilities.base64Encode(viberApiUser + ":" + viberApiPass);
 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var dispatchSheet = ss.getSheetByName('Dispatching & Fulfillment');

@@ -22,7 +22,7 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - Built a minimum viable product (MVP) using Google Apps Script + Google Sheets (no external DB yet) and easier to use for ground staff for now 
   - Deployed components to AWS serverless infrastructure
   - Gained experience with version control workflows and collaborative deployment with product design
-  - Currently planning to use graph algorithms for optimal rider assignment for in a phase 2
+  - Currently planning to use graph algorithms for optimal rider assignment in a phase 2
 ## 🌐 Competitive Programming
 - Regular participant in Informatics Olympiads.
 - Top 20+ placer in the Philippine National Olympiad in Informatics ([NOI.ph](https://noi.ph)), best position: 4th place.

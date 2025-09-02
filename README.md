@@ -18,11 +18,11 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - See paper on google drive [here](https://drive.google.com/file/d/1Tz5_n4KKLvXJk2pD9c-VNwKGnvGy7cFN/view?usp=sharing)
 - **Project 6: Part time work with [LOCQ/SEAGAS](https://new.pricelocq.com/) Development Team - LOCQMorerecentwork**
   - Developed a dispatching and fulfillment control system for delivery operations using Node and Nest Js
-  - Integrated the Viber API for automated rider messaging and order confirmations.
+  - Integrated the Viber API for automated rider messaging and order confirmations
   - Built a minimum viable product (MVP) using Google Apps Script + Google Sheets (no external DB yet) and easier to use for ground staff for now 
-  - Deployed components to AWS serverless infrastructure for scalability.
-  - Gained hands-on experience with version control workflows and collaborative deployment.
-  - Currently planning to use graph algorithms for optimal rider assignment for a phase 2
+  - Deployed components to AWS serverless infrastructure
+  - Gained experience with version control workflows and collaborative deployment with product design
+  - Currently planning to use graph algorithms for optimal rider assignment for in a phase 2
 ## 🌐 Competitive Programming
 - Regular participant in Informatics Olympiads.
 - Top 20+ placer in the Philippine National Olympiad in Informatics ([NOI.ph](https://noi.ph)), best position: 4th place.

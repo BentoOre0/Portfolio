@@ -43,7 +43,6 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
 - Completely self-taught developer: Most comfortable with python/JS for development, out of practice with Java, C++ for competitve programming
 
 ## 📈 Recent Developments
-- Leveraging recent AI advancements to enhance my development process.
 - Bought a Raspberry Pi and began tinkering after IB exams
 
 ## 🎯 Goals

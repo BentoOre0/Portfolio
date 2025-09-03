@@ -1,7 +1,7 @@
 # 🌌 2D Gravity Simulation Project
 
 ## 🚀 Introduction
-I decided to take a break from competitive programming as I wanted to try something more creative. My interest in combining math and physics led me to particle simulation, which eventually evolved into the simulation of planetary systems inspired by the n-body problem.
+I decided to take a break from competitive programming as I wanted to try something more creative. My interest in combining math and physics led me to particle simulation, which eventually evolved into the simulation of planetary systems inspired by the n-body problem.  Check out: IMG_0885.jpeg and IMG_0885.jpeg for photos
 
 ## 🔍 Problem Statement
 Simulating gravitational interactions between particles involves calculating forces between each pair of particles, leading to O(n^2) complexity. This approach was too slow and could handle no more than a few hundred bodies without performance issues.
@@ -59,3 +59,4 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
      - Prompted by pressing `x`.
    - **Number of Bodies in the Galaxy:**
      - Prompted by pressing `x`.
+

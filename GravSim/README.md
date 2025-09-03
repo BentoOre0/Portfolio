@@ -59,7 +59,3 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
      - Prompted by pressing `x`.
    - **Number of Bodies in the Galaxy:**
      - Prompted by pressing `x`.
-
-### Photos
-
-(TO BE ADDED)

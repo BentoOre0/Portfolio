@@ -17,7 +17,7 @@ The Barnes-Hut algorithm optimizes the simulation by reducing the computational 
 ### Challenges encountered during development
 **Challenge:** Familiarity with pygames and tkinter or compression algorithms.
 
-**Solution:** Use AI to draft code and look at documentation for appropriate libraries. Also used it to research the Barnes-Hut Algorithm.
+**Solution:** Use AI to draft code and look at documentation for appropriate libraries. Also used it to research the Barnes-Hut Algorithm. Despite ai help, still had to compensate alot of errors 
 
 
 ### User Controls for `main.py`

@@ -1,7 +1,5 @@
 # SeaOil / Segas - Automated Rider Dispatch System
 
-Built during a backend-development shadowing internship at Price Locq, on the SeaGas/SeaOil delivery operations account.
-
 ## Overview
 ![alt text](image.png)
 SeaGas/SeaOil riders were being dispatched manually out of a Google Sheet: a team lead would read new orders, decide who was free, and message each rider individually over Viber to confirm, then update the sheet by hand as replies came in. This project automates that entire loop so the sheet and Viber conversations stay in sync on their own, with no one babysitting the process.

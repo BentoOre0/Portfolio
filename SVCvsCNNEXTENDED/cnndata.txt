@@ -1,0 +1,799 @@
+C:\Users\jerem\imageplayground\.venv\Scripts\python.exe C:\Users\jerem\imageplayground\CNNHyperFinder.py
+2024-09-27 21:58:20.191721: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-09-27 21:58:20.958431: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Testing combinations:   0%|          | 0/128 [00:00<?, ?it/s]Total hyperparameter combinations to test: 128
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+2024-09-27 21:58:25.540464: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-09-27 21:58:27.045317: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+2024-09-27 21:58:27.736982: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Testing combinations:   1%|          | 1/128 [00:03<07:33,  3.57s/it]Accuracy: 0.6636, Time: 3.08s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+2024-09-27 21:58:30.502370: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5202, Time: 2.65s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:   2%|▏         | 2/128 [00:06<06:53,  3.28s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+2024-09-27 21:58:34.343277: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Accuracy: 0.3081, Time: 3.02s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:   2%|▏         | 3/128 [00:10<07:01,  3.37s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:   3%|▎         | 4/128 [00:13<06:39,  3.22s/it]Accuracy: 0.0492, Time: 2.56s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6701, Time: 3.16s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:   4%|▍         | 5/128 [00:16<06:54,  3.37s/it]2024-09-27 21:58:43.666884: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5353, Time: 2.71s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:   5%|▍         | 6/128 [00:19<06:42,  3.30s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.2774, Time: 3.24s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:   5%|▌         | 7/128 [00:23<07:03,  3.50s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.0940, Time: 4.11s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:   6%|▋         | 8/128 [00:28<07:57,  3.98s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:   7%|▋         | 9/128 [00:37<10:42,  5.40s/it]Accuracy: 0.6002, Time: 7.40s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5422, Time: 6.19s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:   8%|▊         | 10/128 [00:44<11:41,  5.94s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+2024-09-27 21:59:13.600281: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Testing combinations:   9%|▊         | 11/128 [00:50<11:30,  5.90s/it]Accuracy: 0.3811, Time: 5.16s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:   9%|▉         | 12/128 [00:54<10:13,  5.29s/it]Accuracy: 0.1818, Time: 3.38s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6516, Time: 5.55s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:  10%|█         | 13/128 [01:00<10:41,  5.58s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  11%|█         | 14/128 [01:05<10:05,  5.31s/it]Accuracy: 0.5404, Time: 4.17s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.3771, Time: 5.28s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  12%|█▏        | 15/128 [01:11<10:24,  5.52s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  12%|█▎        | 16/128 [01:15<09:41,  5.19s/it]Accuracy: 0.2617, Time: 3.91s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  13%|█▎        | 17/128 [01:19<08:42,  4.71s/it]Accuracy: 0.5796, Time: 3.12s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.4452, Time: 2.60s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  14%|█▍        | 18/128 [01:22<07:43,  4.21s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.2005, Time: 3.04s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  15%|█▍        | 19/128 [01:25<07:17,  4.01s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.0925, Time: 2.61s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  16%|█▌        | 20/128 [01:28<06:42,  3.72s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  16%|█▋        | 21/128 [01:32<06:42,  3.77s/it]Accuracy: 0.5509, Time: 3.10s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+2024-09-27 21:59:59.534608: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.4521, Time: 2.61s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  17%|█▋        | 22/128 [01:35<06:17,  3.56s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  18%|█▊        | 23/128 [01:39<06:18,  3.60s/it]Accuracy: 0.2449, Time: 3.19s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.1084, Time: 2.70s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  19%|█▉        | 24/128 [01:42<05:59,  3.46s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5570, Time: 4.83s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:  20%|█▉        | 25/128 [01:48<06:57,  4.06s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  20%|██        | 26/128 [01:52<06:56,  4.08s/it]Accuracy: 0.4865, Time: 3.49s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.2615, Time: 6.52s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  21%|██        | 27/128 [01:59<08:40,  5.16s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  22%|██▏       | 28/128 [02:06<09:27,  5.68s/it]Accuracy: 0.1308, Time: 5.94s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  23%|██▎       | 29/128 [02:16<11:19,  6.86s/it]Accuracy: 0.5947, Time: 8.37s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  23%|██▎       | 30/128 [02:23<11:29,  7.04s/it]Accuracy: 0.4958, Time: 6.08s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  24%|██▍       | 31/128 [02:33<12:32,  7.76s/it]Accuracy: 0.3108, Time: 8.16s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  25%|██▌       | 32/128 [02:40<12:05,  7.56s/it]Accuracy: 0.1948, Time: 6.15s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  26%|██▌       | 33/128 [02:46<11:11,  7.07s/it]Accuracy: 0.6919, Time: 5.41s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  27%|██▋       | 34/128 [02:49<09:14,  5.89s/it]Accuracy: 0.6435, Time: 2.70s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  27%|██▋       | 35/128 [02:53<08:10,  5.28s/it]Accuracy: 0.4027, Time: 3.35s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.1466, Time: 2.85s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  28%|██▊       | 36/128 [02:56<07:11,  4.69s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  29%|██▉       | 37/128 [03:00<06:41,  4.42s/it]Accuracy: 0.7047, Time: 3.27s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5294, Time: 2.71s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  30%|██▉       | 38/128 [03:03<06:04,  4.05s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  30%|███       | 39/128 [03:07<05:55,  4.00s/it]Accuracy: 0.3893, Time: 3.36s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  31%|███▏      | 40/128 [03:10<05:31,  3.76s/it]Accuracy: 0.1889, Time: 2.74s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.7010, Time: 5.78s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:  32%|███▏      | 41/128 [03:17<06:38,  4.58s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6351, Time: 3.54s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  33%|███▎      | 42/128 [03:21<06:20,  4.43s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+2024-09-27 22:01:50.528189: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Testing combinations:  34%|███▎      | 43/128 [03:27<07:02,  4.97s/it]Accuracy: 0.4617, Time: 5.59s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  34%|███▍      | 44/128 [03:34<07:37,  5.45s/it]Accuracy: 0.2945, Time: 5.67s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  35%|███▌      | 45/128 [03:43<09:22,  6.77s/it]Accuracy: 0.7452, Time: 8.70s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6242, Time: 4.33s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  36%|███▌      | 46/128 [03:48<08:27,  6.19s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  37%|███▋      | 47/128 [03:55<08:26,  6.25s/it]Accuracy: 0.4785, Time: 5.66s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.2758, Time: 3.87s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  38%|███▊      | 48/128 [03:59<07:35,  5.70s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  38%|███▊      | 49/128 [04:03<06:55,  5.25s/it]Accuracy: 0.6431, Time: 3.68s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5764, Time: 2.76s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  39%|███▉      | 50/128 [04:07<06:10,  4.75s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  40%|███▉      | 51/128 [04:13<06:42,  5.23s/it]Accuracy: 0.3470, Time: 5.44s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  41%|████      | 52/128 [04:18<06:40,  5.27s/it]Accuracy: 0.0978, Time: 4.54s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  41%|████▏     | 53/128 [04:25<07:11,  5.76s/it]Accuracy: 0.6518, Time: 6.02s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5115, Time: 4.51s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  42%|████▏     | 54/128 [04:31<06:57,  5.64s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.3624, Time: 5.57s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  43%|████▎     | 55/128 [04:37<07:09,  5.89s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  44%|████▍     | 56/128 [04:43<06:52,  5.73s/it]Accuracy: 0.1540, Time: 4.55s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  45%|████▍     | 57/128 [04:51<07:51,  6.65s/it]Accuracy: 0.6622, Time: 7.72s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6150, Time: 5.54s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  45%|████▌     | 58/128 [04:58<07:40,  6.58s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  46%|████▌     | 59/128 [05:07<08:29,  7.39s/it]Accuracy: 0.3972, Time: 8.06s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.2079, Time: 5.61s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  47%|████▋     | 60/128 [05:14<08:04,  7.12s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.7041, Time: 8.43s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:  48%|████▊     | 61/128 [05:23<08:46,  7.86s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  48%|████▊     | 62/128 [05:30<08:18,  7.55s/it]Accuracy: 0.5760, Time: 5.90s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.4255, Time: 8.49s
+
+Testing parameters: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  49%|████▉     | 63/128 [05:40<08:53,  8.20s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  50%|█████     | 64/128 [05:47<08:22,  7.86s/it]Accuracy: 0.2225, Time: 6.09s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  51%|█████     | 65/128 [05:54<07:58,  7.59s/it]Accuracy: 0.7006, Time: 6.33s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6280, Time: 5.08s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  52%|█████▏    | 66/128 [05:59<07:14,  7.01s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  52%|█████▏    | 67/128 [06:06<07:07,  7.01s/it]Accuracy: 0.3638, Time: 6.38s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  53%|█████▎    | 68/128 [06:11<06:09,  6.17s/it]Accuracy: 0.2068, Time: 3.90s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  54%|█████▍    | 69/128 [06:15<05:38,  5.74s/it]Accuracy: 0.6864, Time: 4.38s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.5961, Time: 4.31s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  55%|█████▍    | 70/128 [06:20<05:18,  5.50s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  55%|█████▌    | 71/128 [06:28<05:45,  6.06s/it]Accuracy: 0.3219, Time: 6.75s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.1908, Time: 5.29s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  56%|█████▋    | 72/128 [06:33<05:35,  5.99s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  57%|█████▋    | 73/128 [06:44<06:48,  7.43s/it]Accuracy: 0.7643, Time: 10.00s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  58%|█████▊    | 74/128 [06:50<06:17,  6.99s/it]Accuracy: 0.6941, Time: 5.58s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+2024-09-27 22:05:20.956923: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Testing combinations:  59%|█████▊    | 75/128 [06:58<06:19,  7.16s/it]Accuracy: 0.4092, Time: 7.05s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  59%|█████▉    | 76/128 [07:05<06:07,  7.06s/it]Accuracy: 0.2613, Time: 6.18s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6783, Time: 11.42s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:  60%|██████    | 77/128 [07:17<07:21,  8.65s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6089, Time: 7.44s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  61%|██████    | 78/128 [07:25<07:06,  8.53s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.4051, Time: 11.61s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  62%|██████▏   | 79/128 [07:38<07:56,  9.72s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  62%|██████▎   | 80/128 [07:46<07:23,  9.23s/it]Accuracy: 0.3205, Time: 7.42s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  63%|██████▎   | 81/128 [07:53<06:42,  8.57s/it]Accuracy: 0.6272, Time: 6.38s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  64%|██████▍   | 82/128 [07:59<05:54,  7.70s/it]Accuracy: 0.5790, Time: 5.16s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  65%|██████▍   | 83/128 [08:06<05:37,  7.50s/it]Accuracy: 0.2971, Time: 6.37s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.1308, Time: 4.99s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  66%|██████▌   | 84/128 [08:11<05:00,  6.84s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  66%|██████▋   | 85/128 [08:16<04:35,  6.41s/it]Accuracy: 0.5727, Time: 5.04s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  67%|██████▋   | 86/128 [08:20<03:56,  5.64s/it]Accuracy: 0.5430, Time: 3.50s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  68%|██████▊   | 87/128 [08:25<03:39,  5.35s/it]Accuracy: 0.3213, Time: 4.29s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  69%|██████▉   | 88/128 [08:29<03:14,  4.87s/it]Accuracy: 0.1704, Time: 3.43s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  70%|██████▉   | 89/128 [08:36<03:41,  5.68s/it]Accuracy: 0.6492, Time: 7.04s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6128, Time: 4.83s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  70%|███████   | 90/128 [08:41<03:31,  5.56s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  71%|███████   | 91/128 [08:50<03:55,  6.35s/it]Accuracy: 0.3618, Time: 7.59s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  72%|███████▏  | 92/128 [08:55<03:38,  6.08s/it]Accuracy: 0.2699, Time: 5.02s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  73%|███████▎  | 93/128 [09:04<03:59,  6.85s/it]Accuracy: 0.6905, Time: 8.11s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6181, Time: 5.40s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  73%|███████▎  | 94/128 [09:09<03:42,  6.55s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.3624, Time: 8.15s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  74%|███████▍  | 95/128 [09:18<03:57,  7.20s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  75%|███████▌  | 96/128 [09:24<03:38,  6.82s/it]Accuracy: 0.2552, Time: 5.52s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.7549, Time: 4.50s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:  76%|███████▌  | 97/128 [09:29<03:13,  6.25s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6927, Time: 3.20s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  77%|███████▋  | 98/128 [09:33<02:42,  5.43s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  77%|███████▋  | 99/128 [09:37<02:31,  5.22s/it]Accuracy: 0.4464, Time: 4.38s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  78%|███████▊  | 100/128 [09:41<02:11,  4.71s/it]Accuracy: 0.2998, Time: 3.20s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  79%|███████▉  | 101/128 [09:46<02:07,  4.71s/it]Accuracy: 0.7993, Time: 4.33s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6435, Time: 3.50s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  80%|███████▉  | 102/128 [09:49<01:55,  4.45s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.4417, Time: 4.74s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  80%|████████  | 103/128 [09:55<01:56,  4.66s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.2770, Time: 3.53s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  81%|████████▏ | 104/128 [09:58<01:46,  4.43s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  82%|████████▏ | 105/128 [10:07<02:08,  5.59s/it]Accuracy: 0.7980, Time: 7.75s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.7415, Time: 6.21s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  83%|████████▎ | 106/128 [10:13<02:10,  5.93s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.4983, Time: 8.34s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Testing combinations:  84%|████████▎ | 107/128 [10:22<02:23,  6.82s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  84%|████████▍ | 108/128 [10:29<02:13,  6.70s/it]Accuracy: 0.3699, Time: 6.02s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  85%|████████▌ | 109/128 [10:38<02:19,  7.35s/it]Accuracy: 0.8153, Time: 8.27s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  86%|████████▌ | 110/128 [10:43<02:03,  6.84s/it]Accuracy: 0.6890, Time: 5.26s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  87%|████████▋ | 111/128 [10:52<02:05,  7.39s/it]Accuracy: 0.5288, Time: 8.10s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  88%|████████▊ | 112/128 [10:58<01:49,  6.87s/it]Accuracy: 0.3771, Time: 5.20s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  88%|████████▊ | 113/128 [11:03<01:34,  6.32s/it]Accuracy: 0.7228, Time: 4.67s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.6111, Time: 3.45s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  89%|████████▉ | 114/128 [11:06<01:17,  5.57s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  90%|████████▉ | 115/128 [11:11<01:10,  5.41s/it]Accuracy: 0.4342, Time: 4.63s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.1965, Time: 3.39s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Testing combinations:  91%|█████████ | 116/128 [11:15<00:58,  4.91s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Accuracy: 0.7348, Time: 4.66s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Testing combinations:  91%|█████████▏| 117/128 [11:20<00:54,  4.95s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+2024-09-27 22:09:47.984750: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Accuracy: 0.5754, Time: 3.48s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Testing combinations:  92%|█████████▏| 118/128 [11:24<00:46,  4.61s/it]C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  93%|█████████▎| 119/128 [11:29<00:42,  4.75s/it]Accuracy: 0.4255, Time: 4.64s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  94%|█████████▍| 120/128 [11:33<00:36,  4.53s/it]Accuracy: 0.2650, Time: 3.68s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  95%|█████████▍| 121/128 [11:42<00:40,  5.75s/it]Accuracy: 0.7197, Time: 8.07s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  95%|█████████▌| 122/128 [11:47<00:33,  5.59s/it]Accuracy: 0.6842, Time: 4.80s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  96%|█████████▌| 123/128 [11:55<00:31,  6.32s/it]Accuracy: 0.4753, Time: 7.51s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  97%|█████████▋| 124/128 [12:00<00:23,  5.96s/it]Accuracy: 0.2483, Time: 4.72s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  98%|█████████▊| 125/128 [12:11<00:21,  7.31s/it]Accuracy: 0.7718, Time: 9.60s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  98%|█████████▊| 126/128 [12:19<00:15,  7.60s/it]Accuracy: 0.6577, Time: 7.57s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations:  99%|█████████▉| 127/128 [12:32<00:09,  9.15s/it]Accuracy: 0.4611, Time: 11.88s
+
+Testing parameters: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1776.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(value)
+Testing combinations: 100%|██████████| 128/128 [12:40<00:00,  5.94s/it]
+Accuracy: 0.3409, Time: 7.48s
+
+Results:
+Score: 0.8153, Time: 8.27s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7993, Time: 4.33s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7980, Time: 7.75s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7718, Time: 9.60s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7643, Time: 10.00s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7549, Time: 4.50s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7452, Time: 8.70s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7415, Time: 6.21s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.7348, Time: 4.66s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7228, Time: 4.67s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7197, Time: 8.07s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7047, Time: 3.27s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7041, Time: 8.43s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7010, Time: 5.78s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.7006, Time: 6.33s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6941, Time: 5.58s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6927, Time: 3.20s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6919, Time: 5.41s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6905, Time: 8.11s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6890, Time: 5.26s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6864, Time: 4.38s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6842, Time: 4.80s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6783, Time: 11.42s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6701, Time: 3.16s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6636, Time: 3.08s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6622, Time: 7.72s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6577, Time: 7.57s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6518, Time: 6.02s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6516, Time: 5.55s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6492, Time: 7.04s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6435, Time: 2.70s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6435, Time: 3.50s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6431, Time: 3.68s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6351, Time: 3.54s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6280, Time: 5.08s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6272, Time: 6.38s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.6242, Time: 4.33s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6181, Time: 5.40s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6150, Time: 5.54s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6128, Time: 4.83s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6111, Time: 3.45s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6089, Time: 7.44s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.6002, Time: 7.40s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.5961, Time: 4.31s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5947, Time: 8.37s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.5796, Time: 3.12s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.5790, Time: 5.16s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5764, Time: 2.76s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5760, Time: 5.90s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5754, Time: 3.48s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5727, Time: 5.04s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.5570, Time: 4.83s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.5509, Time: 3.10s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 2}
+Score: 0.5430, Time: 3.50s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5422, Time: 6.19s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5404, Time: 4.17s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5353, Time: 2.71s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5294, Time: 2.71s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5288, Time: 8.10s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.5202, Time: 2.65s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.5115, Time: 4.51s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.4983, Time: 8.34s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4958, Time: 6.08s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.4865, Time: 3.49s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.4785, Time: 5.66s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4753, Time: 7.51s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4617, Time: 5.59s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4611, Time: 11.88s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4521, Time: 2.61s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.4464, Time: 4.38s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4452, Time: 2.60s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.001, 'pool_size': 3}
+Score: 0.4417, Time: 4.74s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4342, Time: 4.63s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4255, Time: 8.49s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4255, Time: 4.64s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4092, Time: 7.05s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4051, Time: 11.61s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.4027, Time: 3.35s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3972, Time: 8.06s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3893, Time: 3.36s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3811, Time: 5.16s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3771, Time: 5.28s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3771, Time: 5.20s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.3699, Time: 6.02s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.3638, Time: 6.38s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3624, Time: 5.57s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3624, Time: 8.15s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3618, Time: 7.59s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3470, Time: 5.44s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3409, Time: 7.48s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.3219, Time: 6.75s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3213, Time: 4.29s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3205, Time: 7.42s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.3108, Time: 8.16s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.3081, Time: 3.02s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.2998, Time: 3.20s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2971, Time: 6.37s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.2945, Time: 5.67s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2774, Time: 3.24s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.2770, Time: 3.53s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2758, Time: 3.87s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2699, Time: 5.02s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2650, Time: 3.68s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2617, Time: 3.91s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2615, Time: 6.52s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.2613, Time: 6.18s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2552, Time: 5.52s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2483, Time: 4.72s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2449, Time: 3.19s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.2225, Time: 6.09s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2079, Time: 5.61s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2068, Time: 3.90s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.2005, Time: 3.04s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 2}
+Score: 0.1965, Time: 3.39s, Params: {'batch_size': 32, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1948, Time: 6.15s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1908, Time: 5.29s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1889, Time: 2.74s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1818, Time: 3.38s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1704, Time: 3.43s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1540, Time: 4.55s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1466, Time: 2.85s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1308, Time: 5.94s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 64, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1308, Time: 4.99s, Params: {'batch_size': 32, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.1084, Time: 2.70s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.0978, Time: 4.54s, Params: {'batch_size': 16, 'dense_units': 128, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.0940, Time: 4.11s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 5, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.0925, Time: 2.61s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.5, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+Score: 0.0492, Time: 2.56s, Params: {'batch_size': 16, 'dense_units': 64, 'dropout_rate': 0.3, 'epochs': 100, 'filters': 32, 'kernel_size': 3, 'learning_rate': 0.0001, 'pool_size': 3}
+
+Process finished with exit code 0

@@ -3,6 +3,8 @@
 ## Introduction
 Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I have a diverse background in data analysis, algorithm optimization, and competitive programming.
 
+![Imgur](https://imgur.com/yxLg4uN)
+
 ## Achievements in order of completion
 - **Project 1: Automated Color Analysis** 
   - Developed a data analysis tool using clustering algorithms to measure the oxidization level of bananas.

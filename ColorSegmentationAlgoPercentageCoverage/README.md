@@ -1,52 +1,85 @@
-## Percentage Coverage Analysis Project 🍌⚗️
+## Percentage Coverage Analysis
 
-### Overview
-The **Percentage Coverage Analysis** project aims to determine the percentage coverage of the "brown layer" on bananas over time and see how this is affected by different preservatives. This was created as part of a wider science project related to chemistry.
+A small computer-vision script that measures what percentage of a banana's surface has browned, from a photo. Built for a chemistry project comparing how different preservatives slow down browning over time.
 
-### Data Sources
-- **Photos:** Taken personally to document the changes in the banana's brown layer over time.
-- **Processed Data:** Output of the algorithm. This is seen in `Chemistry Data`. There is a pdf of the final data and the output of the program.
+### What it does
 
-### Methodologies
-Our analysis employs several methodologies:
-1. **Image Processing:** Using OpenCV for image reading and resizing.
-2. **Gaussian Filtering:** To remove noise caused by the petri dish and other packs, ensuring consistent methodology without manual photo editing.
-3. **K-Means Clustering:** An AI algorithm to identify and segment the key colors in the images. (3 clusters since only 3 major clusters background, yellow, and brown).
-4. **Color Distance Calculation:** To classify and filter out the background and target the relevant brown and yellow layers.
+Given a folder of banana photos, the script:
+1. Segments each image into three regions - **background**, **yellow (fresh)**, and **brown (browned)**
+2. Counts pixels in each region
+3. Reports `brown / (brown + yellow)` as the coverage percentage
 
-### Key Metrics
-- **Coverage Percentage:** The ratio of the brown area to the total area of the brown and yellow layers.
-- **Color Frequency:** The distribution of key colors within the images.
+It saves a segmented version of each image (so you can visually verify the classification) and prints the percentage to the console.
 
-### Data Preprocessing
-Data preprocessing involves:
-- **Blurring:** Applying a Gaussian filter to smooth out the images.
-- **Color Adjustment:** Moving each pixel closer to predefined colors (white, black, yellow) to enhance clustering accuracy.
+### How the algorithm works
 
-### Tools and Technologies
-We utilize a range of tools and technologies, including:
-- **Python and OpenCV:** For image processing.
-- **Scikit-learn:** For K-Means clustering.
-- **NumPy:** For numerical operations and data manipulation.
+The core challenge is that a raw photo has messy, continuous color gradients (dish reflections, shadows, lighting), but we only care about 3 categories. The pipeline gets there in steps:
 
-### Example Analysis
-An example analysis includes reading an image, resizing it, applying Gaussian filtering, performing K-Means clustering, and calculating the percentage of the brown layer.
+| Step | Purpose |
+|---|---|
+| **1. Resize (30%)** | Speeds up the pixel-level operations below |
+| **2. Gaussian blur** | Smooths out noise from the petri dish and lighting, without manual photo editing |
+| **3. Pull pixels toward reference colors** | Each pixel is nudged halfway toward whichever of white / black / yellow it's closest to (Euclidean distance in RGB). This sharpens the separation between regions *before* clustering, so K-means converges on cleaner groups |
+| **4. K-means clustering (k=3)** | Groups pixels into 3 dominant colors: background, yellow, brown |
+| **5. Color-frequency filtering** | The cluster closest to white is dropped (background/dish). Of the two remaining, the one closest to reference-yellow is labeled `YELLOW`; the other is `BROWN` |
+| **6. Percentage calculation** | `BROWN / (YELLOW + BROWN) * 100` |
 
-### Challenges and Solutions
-**Challenge:** Handling noise and inconsistencies in images due to the petri dish and other factors. 📷
+### Example
 
-**Solution:** Implementing Gaussian filtering to create a consistent preprocessing methodology.
+Reading an image, resizing, blurring, clustering, and computing the brown percentage looks like this in the console output:
 
-**Challenge:** Not familiar with data analytics tools 🤔
+```
+Chemistry Data/day3_modded.png
+YELLOW: 8213   BROWN: 3021
+Percentage Brown 26.90%
+```
 
-**Solution:** Use AI to draft code and look at documentation for appropriate libraries.
+A `_modded` copy of each image (showing the 3-color segmentation) is saved next to the original, and a window pops up displaying it - press any key to move to the next image.
 
-### Applications
-The findings from our analysis can be applied in:
-- **Scientific Research:** Studying the effect of different preservatives on banana browning.
-- **Further Research:** Extending the methodology to analyze other fruits or conditions.
+### Requirements
 
-### Future Improvements
-Next steps include:
-- **Using Neural Networks:** To potentially enhance accuracy and consistency compared to clustering algorithms and blurs. 🧠
+```
+pip install opencv-python numpy scikit-learn
+```
 
+### Usage
+
+1. Put your images inside a folder (the repo's `Chemistry Data/` folder, or your own)
+2. Open `coldecimgtopercent.py` and update the hardcoded path near the top to point at that folder:
+   ```python
+   root_dir = r"path/to/your/Chemistry Data"
+   ```
+3. Run it:
+   ```
+   python coldecimgtopercent.py
+   ```
+4. For each image, a segmented preview window will open - press any key to continue to the next one. Percentages print to the console as they're computed.
+
+> **Note:** this script assumes the *only* colors present are some shade of white/background, yellow, and brown - it's tuned specifically for this banana-browning setup rather than being general-purpose.
+
+### Repo structure
+
+```
+ColorSegmentationAlgoPercentageCoverage/
+├── coldecimgtopercent.py   # main script
+├── Chemistry Data/         # input photos + processed output + final PDF writeup
+├── README.md
+```
+
+### Data
+
+- **Photos:** taken personally to document the banana's browning over time under different preservative conditions
+- **Processed output:** lives in `Chemistry Data/` - includes the algorithm's output alongside a PDF of the final write-up
+
+### Known limitations & possible improvements
+
+- The 3-reference-color approach (white/black/yellow) is hand-tuned for this specific lighting setup and banana coloring - it won't generalize to other fruits or backgrounds without retuning
+- The pixel-nudging step (step 3) runs as a nested Python double loop over every pixel, which is slow for larger images - this could be vectorized with NumPy
+- **Future direction:** replacing the clustering + reference-color heuristic with a trained neural network for more consistent segmentation across lighting conditions
+
+### Example of Final Processed Data
+(Upper Raw Data Files -> Processed Data Files)
+![alt text](IMG_0135.png)
+
+(Processed Data Files -> Quantitative Results)
+![alt text](IMG_0136.png)

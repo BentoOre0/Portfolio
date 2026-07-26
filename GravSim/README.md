@@ -1,62 +1,67 @@
-# 🌌 2D Gravity Simulation Project
+# GravSim
+A 2D **N-body gravity simulator** written in Python using **Pygame**. The simulator models gravitational interactions between celestial bodies while accelerating force computation using the **Barnes-Hut algorithm** and a dynamically constructed **quadtree**.
 
-## 🚀 Introduction
-I decided to take a break from competitive programming as I wanted to try something more creative. My interest in combining math and physics led me to particle simulation, which eventually evolved into the simulation of planetary systems inspired by the n-body problem.  Check out: IMG_0885.jpeg and IMG_0885.jpeg for photos
+## Context
 
-## 🔍 Problem Statement
-Simulating gravitational interactions between particles involves calculating forces between each pair of particles, leading to O(n^2) complexity. This approach was too slow and could handle no more than a few hundred bodies without performance issues.
+The Barnes-Hut algorithm decides whether a group of bodies can be approximated as a single mass using the criterion `s / d < θ`, where:
 
-## 🛠️ Solution: Barnes-Hut Approximation
-The Barnes-Hut algorithm optimizes the simulation by reducing the computational complexity. The key idea is that groups of distant bodies can be approximated by their total mass at the position of their center of mass, significantly reducing the number of calculations needed.
+- `s` is the width of the quadtree node.
+- `d` is the distance from the current body to the node's center of mass.
+- `θ` is a user-defined accuracy threshold.
 
-### How It Works
-- **Quadtree Structure**: Instead of checking each planet against all others, the space is divided into four quadrants recursively. This quadtree structure helps in grouping distant bodies and approximating them as a single point mass.
-- **Force Calculation**: For each particle, forces from nearby particles are calculated directly, while distant particles are approximated.
-- **UI**: This done using tkinter and pygames directly.
+If `s / d < θ`, the node is sufficiently far away relative to its size, so its entire mass is approximated by its center of mass. Otherwise, the node is recursively subdivided and its children are evaluated individually.
 
-### Challenges encountered during development
-**Challenge:** Familiarity with pygames and tkinter or compression algorithms.
+**Smaller values of `θ` produce higher accuracy at the cost of more computations, while larger values improve performance by allowing more approximations.**
 
-**Solution:** Use AI to draft code and look at documentation for appropriate libraries. Also used it to research the Barnes-Hut Algorithm. Despite ai help, still had to compensate alot of errors 
+## Features
 
+* Barnes-Hut approximation for efficient gravitational force computation
+* Dynamic quadtree spatial partitioning
+* Interactive body creation and orbital spawning
+* Collision detection with momentum-conserving body merging
+* Real-time quadtree rendering
 
-### User Controls for `main.py`
+## Implementation
 
-1. **Mouse Controls:**
-   - **Left Click (MOUSEBUTTONDOWN, button 1):**
-     - Create a new planet at the mouse position, enters creation mode.
-   - **Right Click (MOUSEBUTTONDOWN, button 3):**
-     - Create a new planet at the mouse position with random orbital velocity around an existing planet.
-   - **Mouse Wheel Scroll (MOUSEBUTTONDOWN, button 4 or 5):**
-     - Increase (button 4) or decrease (button 5) the radius of the new planet during creation mode.
+Each simulation step:
 
-2. **Keyboard Controls:**
-   - **`r`:** 
-     - Toggle resizing mode for the new planet in creation mode.
-   - **`g`:**
-     - Generate a specified number of random planets.
-   - **`e`:**
-     - Erase all planets from the simulation.
-   - **`f`:**
-     - Change the maximum size of randomly generated planets.
-   - **`d`:**
-     - Toggle the drawing mode for quadtree bounds.
-   - **`t`:**
-     - Change the Barnes-Hut coefficient θ (affects simulation accuracy and speed). This determines whether something is "far enough".
-   - **`s`:**
-     - Spin a specified number of bodies in a galaxy around the mouse position.
-   - **`x`:**
-     - Change the galaxy's radius and the number of bodies in the galaxy.
+1. Construct a quadtree over all bodies.
+2. Compute the center of mass for each node.
+3. Traverse the tree using the Barnes-Hut criterion (`s / d < θ`) to approximate distant regions.
 
-3. **Dialog Prompts:**
-   - **Max Size of Random Planets:**
-     - Prompted by pressing `f`.
-   - **Number of Planets to Generate:**
-     - Prompted by pressing `g`.
-   - **Barnes-Hut Coefficient θ:**
-     - Prompted by pressing `t`.
-   - **Galaxy's Radius:**
-     - Prompted by pressing `x`.
-   - **Number of Bodies in the Galaxy:**
-     - Prompted by pressing `x`.
+Gravity is computed using Newton's law (`F = Gm₁m₂ / r²`), while collisions merge bodies by conserving linear momentum (`m₁v₁ + m₂v₂ = (m₁ + m₂)v_f`).
 
+## Technologies
+
+* Python
+* Pygame
+* NumPy
+* Tkinter
+
+## Run
+
+```bash
+pip install pygame numpy screeninfo
+python3 main.py
+```
+
+## Controls
+
+| Input           | Action                                             |
+| --------------- | -------------------------------------------------- |
+| **Left Click**  | Create a body                                      |
+| **Right Click** | Create a body with an initial orbital velocity     |
+| **Mouse Wheel** | Adjust the radius of the body being placed         |
+| **R**           | Toggle resize mode                                 |
+| **G**           | Generate random bodies                             |
+| **S**           | Spawn a rotating galaxy/body cluster at the cursor |
+| **X**           | Configure galaxy generation parameters             |
+| **T**           | Set the Barnes-Hut threshold `θ`                   |
+| **F**           | Set the maximum random body radius                 |
+| **D**           | Toggle quadtree visualization                      |
+| **E**           | Clear all bodies                                   |
+
+## Photo dump
+![alt text](IMG_0885.jpeg)
+
+![alt text](IMG_0884.png)

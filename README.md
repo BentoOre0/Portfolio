@@ -11,7 +11,7 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - This project won a school competition.
 - **Project 2: 2D Gravity Simulation for PyCharm**
   - Optimized the algorithm from O(n^2) to O(n log n) using the Barnes Hut approximation.
-- **Project 3: Computer Science Extended Essay Research Project (imageplayground)**:
+- **Project 3: Computer Science Extended Essay Research Project**:
   - Investigated "How do Convolutional Neural Networks (CNN) compare against Support Vector Classifiers (SVC) in recognising the Baybayin script under varying degrees of rotation, noise intensities and no added distortions?"
   - See paper on google drive [here](https://drive.google.com/file/d/1Tz5_n4KKLvXJk2pD9c-VNwKGnvGy7cFN/view?usp=sharing)
   - Baybayin Hand Written Dataset on [Kaggle](https://www.kaggle.com/datasets/jamesnogra/baybayn-baybayin-handwritten-images)

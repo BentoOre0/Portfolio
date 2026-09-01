@@ -22,10 +22,10 @@ Hi! I'm **Jeremy Aidan Hernandez Yu**, a passionate coder and problem solver. I 
   - Deployed components to AWS serverless infrastructure
   - Gained experience with version control workflows and collaborative deployment with product design
 ## Competitive Programming
-- Regular participant in Informatics Olympiads.
+- Regular participant in Informatics Olympiads in highschool.
 - Top 20+ placer in the Philippine National Olympiad in Informatics ([NOI.ph](https://noi.ph)), best position: 4th place.
 - Invited to the Asia Pacific International Olympiad for two consecutive years.
-- IOI team selection in 2023,2024 and 2025
+- IOI team selection camp in 2023,2024 and 2025
 - Founded a Competitive Programming Club in High School 20+ members. Host in house contests every 2 weeks for snacks!
 
 ## Coding Platforms

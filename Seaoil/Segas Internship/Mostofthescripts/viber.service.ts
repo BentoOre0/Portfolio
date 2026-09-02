@@ -20,7 +20,7 @@ export class ViberService {
   }
   async sendViber(dto: SendViberDto) {
     const data = await axios.get(
-      `${process.env.IBAZAAR_URL}?username=seaoilviberapi&password=52d8b68f728686615b53ba20e7a5e406
+      `${process.env.IBAZAAR_URL}?username=seaoilviberapi&password={HARD CODED CREDENTIAL}
       &mobilenum=0${dto.mobileNumber}&fullmesg=${dto.message}&sms_fullmesg=${dto.message}
       &originator=31504&sms_originator=SEAOIL`
     );
